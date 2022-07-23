@@ -1,0 +1,20 @@
+package looping
+
+fun main() {
+
+    for(i in 1..10){
+
+        if(i==5)
+            continue
+
+        println(i)
+
+    }
+
+    for(num in 1..5){
+        println(num)
+    }
+
+    println("All code executed")
+
+}
